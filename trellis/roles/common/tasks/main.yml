@@ -154,6 +154,7 @@
       become: no
       when: env != 'development' and ssh_client_ip_lookup | default(true)
       tags: [fail2ban, ferm]
+      
   rescue:
     - name: Fail when unable to retrieve SSH client IP
       fail:
