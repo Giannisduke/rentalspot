@@ -1,0 +1,21 @@
+# Created by trellis-cli v0.9.0
+# Documentation: https://roots.io/trellis/docs/vault/
+
+vault_mysql_root_password: WauFmQjrVziBBdm78B9p8RSFJS6K8QgH02YiWnSgXVyiRoRxM2GoULhQ0QoBHm2z
+vault_users:
+- name: '{{ admin_user }}'
+  password: c2Y3trP8uW3CW82uoIyjWaHavwoXWdI7GWlgvfDuMvELMWMPyUPXFjVBb4XmAfkY
+  salt: V6V5Dk3UpYWT0GfrebkfftER5Oghl7bWRY7Y2Xxcmp66qQOjpbWmaCb1T56SM7W5
+vault_wordpress_sites:
+  rentalspot.gr:
+    admin_password: PwqVcwR43Ho0PVCvZqRvKTyZwMkMXwHFGEjcGgUW0riwOUq1EiuigU3YTH1XyuGJ
+    env:
+      db_password: LCA82Ez6L51uyztBoeeZ5V3dYDbr86WnpsJI0KfY4KljAmxCfkF7wMBHdqczd5Xh
+      auth_key: qeW1t5IMlXkAZjS6uVQXae7xQkIms3vBDr5zfxuJJutVbzOZp1T9cP2w01CpzAO2
+      secure_auth_key: wHC2TGLd7NY4HlSGl45snURO1wDFtbPaSRid6g5vWUFzrsaufSdAzJbfAM5uuLrS
+      logged_in_key: lkWLW9pI1s7GnxqPI3Qv5K3IyShkdwVAPWjIc8xtgGj6KNuIgF2KJwHEpHcdaW2Y
+      nonce_key: 93kQ9yoFe5SHvHFgGQ5FIOJakWDxQfN4CacBH6RmDBuPvjdqgmdhPpyhh8jUarfm
+      auth_salt: Y05m9VqH66HEaueIinjEffchUQShiHQOLKOHk73bI5hhRr8EvnG7KmG3bo9HXdgy
+      secure_auth_salt: GkKq5n7jnOlidvKcqTIJ1VeX1ouE2kx2qbxoU6QIwJc4BxOyn7PBtfc6ZMHw2w7b
+      logged_in_salt: USBOZ9k2fO16Lszc4kMwqePWhCOz29C1RfGf3PJYZ9H2rflaufBZbAQo79oxWWjq
+      nonce_salt: FXFuoSFV8CdLR9NcPHrKSaZDPXafpG4ChLy0TBvwUk1tMRDpSnt8oZPK1b4z8gRu
